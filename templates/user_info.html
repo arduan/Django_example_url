@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-Ваш IP адрес: {{ip_address}}
-</body>
+
+Ваш IP адрес: {{ip_address}}<br>
+Моя фамилия : {{my_family}}
+
+<html>
+<ul>
+    {% for name in name_spisok%}
+    <li>{{name}}</li>
+    {%endfor%}
+</ul>
+
 </html>
