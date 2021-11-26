@@ -8,6 +8,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('', index),
     path('', spisok),
+    path('', get_client_ip),
 
 
 
