@@ -1,10 +1,19 @@
+<!-- templates/ice_cream/index.html -->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<p>Привет Виталий</p>
-</body>
+<html lang="ru">
+  <head>
+  </head>
+  <body>
+    <header>
+      <!-- Это тег шаблонизатора include, сюда будет включён код
+      из файла header.html -->
+      {% include 'header.html' %}
+    </header>
+    <main>
+      Информация на главной странице
+    </main>
+    <footer>
+      {% include 'footer.html' %}
+    </footer>
+  </body>
 </html>

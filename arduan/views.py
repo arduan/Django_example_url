@@ -8,3 +8,6 @@ def index(request):
     return render(request, template)
 
 
+def about(request):
+    template = 'about.html'
+    return render(request, template)
